@@ -1,0 +1,36 @@
+/* Footer.css */
+footer {
+    width: 100%;
+    background-color: #0d6efd;  /* Primary blue shade */
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+footer .copy {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        padding: 15px 8px;
+    }
+
+    footer .copy {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
